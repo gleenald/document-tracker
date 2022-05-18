@@ -1,0 +1,61 @@
+{
+  "name": "ondaDocumentTracker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@freakycoder/react-native-bounceable": "^0.2.5",
+    "@react-native-community/datetimepicker": "^3.5.2",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "faker": "^5.5.3",
+    "moment": "^2.29.1",
+    "native-base": "^3.0.6",
+    "node-telegram-log": "^1.0.1",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-calendars": "^1.1269.0",
+    "react-native-camera": "^4.0.1",
+    "react-native-date-picker": "^3.3.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-fab": "^1.0.18",
+    "react-native-floating-action": "^1.22.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-paper": "^4.9.2",
+    "react-native-permissions": "^3.0.5",
+    "react-native-qrcode-scanner": "^1.5.4",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-rounded-checkbox": "^0.1.4",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.4.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^8.1.0",
+    "realm": "^10.6.1",
+    "recyclerlistview": "^3.0.5",
+    "rn-round-checkbox": "^1.0.0",
+    "styled-components": "^5.3.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/runtime": "^7.14.8",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "@svgr/cli": "^5.5.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.31.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
